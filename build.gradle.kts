@@ -11,6 +11,8 @@ allprojects {
         maven("https://repo.papermc.io/repository/maven-public/")
     }
 }
+
+// Set the java version to 21
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(21))
